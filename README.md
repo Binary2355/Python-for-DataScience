@@ -29,4 +29,6 @@ A record of some important point when using python such as pandas when doing dat
   * %timeit -n 10
   * %prun -l 4
   
+  This tutorial assumes you have refactored as much as possible in Python, for example by trying to remove for-loops and making use of NumPy vectorization. It’s always worth optimising in Python first.
+  
   https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html#cython-writing-c-extensions-for-pandas
