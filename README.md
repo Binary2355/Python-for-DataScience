@@ -1,6 +1,6 @@
 # Python-for-DataScience
 A record of some important point when using python such as pandas when doing data science
-## Vectorization
+## Vectorization & Functional programming
 * first explanation:
 
   Many CPUs have "vector" or "SIMD" instruction sets which apply the same operation simultaneously to two, four, or more pieces of data. Modern x86 chips have the SSE instructions, many PPC chips have the "Altivec" instructions, and even some ARM chips have a vector instruction set, called NEON.
@@ -21,3 +21,7 @@ A record of some important point when using python such as pandas when doing dat
   * fewer lines of code generally means fewer bugs
   * the code more closely resembles standard mathematical notation (making it easier, typically, to correctly code mathematical constructs)
   * vectorization results in more “Pythonic” code. Without vectorization, our code would be littered with inefficient and difficult to read for loops.
+  
+  ## Pandas
+  ### Essential Basic Functionality
+    https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html#essential-basic-functionality
