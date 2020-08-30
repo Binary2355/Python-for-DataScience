@@ -26,7 +26,7 @@ A record of some important point when using python such as pandas when doing dat
   ### Essential Basic Functionality
     https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html#essential-basic-functionality
   ### Cpython extensions for pandas
-  *1 %timeit -n 10
-  *2 %prun -l 4
+  * %timeit -n 10
+  * %prun -l 4
   
   https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html#cython-writing-c-extensions-for-pandas
